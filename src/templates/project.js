@@ -43,7 +43,7 @@ export default function Project({data}) {
     React.useEffect(() => {
       document.addEventListener('scroll', () => {
         console.log('listening')
-        const isTop = window.scrollY < 100;
+        const isTop = window.scrollY < 115;
         console.log(isTop);
         console.log(hasScrolled);
         if (isTop !== hasScrolled) {
@@ -80,6 +80,9 @@ export default function Project({data}) {
                 backgroundImage: `url(${post.frontmatter.featImage})`
               }}
             >
+              {
+                hasScrolled ? <div /> : null
+              }
               <div style={{
                   backgroundColor: '#262626',
                   height: 50,
@@ -91,7 +94,7 @@ export default function Project({data}) {
                   opacity: 1,
                   marginLeft: '-2em',
                   marginRight: '-2em',
-                  marginTop: '-2em',
+                  marginTop: !hasScrolled ? '-2em' : 0,
                   position: !hasScrolled ? 'relative' : 'fixed',
                   width: '100%',
                   top: 0,
