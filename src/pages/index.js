@@ -5,8 +5,9 @@ import Header from '../components/header'
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import WitcherProj from "../images/WitcherProjectItem.png";
+import SolarProj from '../../static/img/SolARProjectItem.png';
 import BradescoProj from "../images/bradescoProjectItem.png";
-import OPDTProj from "../images/opdtProjectItem.png";
+// import OPDTProj from "../images/opdtProjectItem.png";
 
 const MainProject = ({className, children}) => {
   const {desktop} = useStaticQuery(graphql`
@@ -49,6 +50,7 @@ const IndexPage = () => {
     <React.Fragment>
       <Header />
       <SEO title="Home" />
+      <Link to="/accessibility-mat">
       <MainProject className={"mainProjectSection"}>
         <h3 style={{fontWeight: 400}}>Projeto em Destaque</h3>
         <header>
@@ -57,6 +59,7 @@ const IndexPage = () => {
         </header>
             
       </MainProject>
+      </Link>
           <main style={{
               padding: '2em'
           }}>
@@ -67,21 +70,25 @@ const IndexPage = () => {
                           client: 'Netflix',
                           name: 'Witcher Quiz',
                           bgImage: WitcherProj,
-                          category: 'Game'
-                      },
-                      {
-                          client: 'P&G',
-                          name: 'O Poder do Toque',
-                          bgImage: OPDTProj,
                           category: 'Game',
+                          url: '/witcher-quiz',
                       },
                       {
                           client: 'Bradesco',
                           name: 'As Cores do Natal',
                           bgImage: BradescoProj,
-                          category: 'App Mobile',
+                          category: 'Android / iOS',
+                          url: '/as-cores-do-natal',
+                      },
+                      {
+                          client: 'BIZSYS',
+                          name: 'Solar',
+                          bgImage: SolarProj,
+                          category: 'AR / Mobile',
+                          url: '/solar',
                       },
                       ].map(el => (
+                        <Link to={el.url}>
                           <article style={{
                               backgroundColor: '#595959',
                               display: 'flex',
@@ -103,6 +110,7 @@ const IndexPage = () => {
                                   <p style={{textTransform: 'uppercase', fontSize: '0.4rem', letterSpacing: 2, fontWeight: 600 }}>{el.category}</p>
                               </footer>
                           </article>
+                        </Link>
                       ))
                   }
                   

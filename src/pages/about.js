@@ -85,27 +85,31 @@ const AboutPage = () => {
               </div>
             </main>
 
-            <section className="homeFeatProjects" style={{display: 'flex', justifyContent: 'space-around', marginTop: 50, marginBottom: 50 }}>
+            <section className="homeFeatProjects" style={{display: 'flex', justifyContent: 'space-around', marginTop: 50, marginBottom: 50, padding: '2em' }}>
                   {
                       [{
                           client: 'Netflix',
                           name: 'Witcher Quiz',
                           bgImage: WitcherProj,
-                          category: 'Game'
+                          category: 'Game',
+                          url: '#',
                       },
                       {
                           client: 'P&G',
                           name: 'O Poder do Toque',
                           bgImage: OPDTProj,
                           category: 'Game',
+                          url: '#'
                       },
                       {
                           client: 'Bradesco',
                           name: 'As Cores do Natal',
                           bgImage: BradescoProj,
-                          category: 'App Mobile',
+                          category: 'Android / iOS',
+                          url: '/as-cores-do-natal',
                       },
                       ].map(el => (
+                        <Link to={el.url}>
                           <article style={{
                               backgroundColor: '#595959',
                               display: 'flex',
@@ -127,6 +131,7 @@ const AboutPage = () => {
                                   <p style={{textTransform: 'uppercase', fontSize: '0.4rem', letterSpacing: 2, fontWeight: 600 }}>{el.category}</p>
                               </footer>
                           </article>
+                        </Link>
                       ))
                   }
                   
