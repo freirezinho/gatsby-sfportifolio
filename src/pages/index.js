@@ -7,7 +7,6 @@ import BackgroundImage from 'gatsby-background-image'
 import WitcherProj from "../images/WitcherProjectItem.png";
 import SolarProj from '../../static/img/SolARProjectItem.png';
 import BradescoProj from "../images/bradescoProjectItem.png";
-// import OPDTProj from "../images/opdtProjectItem.png";
 
 const MainProject = ({className, children}) => {
   const {desktop} = useStaticQuery(graphql`
