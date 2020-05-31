@@ -24,16 +24,25 @@ Com o desejo de proporcionar uma experiência de entretenimento imersiva e signi
 SolAR utiliza-se do Google Play Services for AR, no Android, e do ARKit, no iOS, por meio do motor de jogos Unity, para escanear o ambiente do usuário e projetar o sistema solar. Uma vez projetado, o usuário é capaz de explorar esse sistema, examinando cada planeta, vendo descrições a respeito e imagens reais de cada um deles, ou suas luas, captadas pela NASA.
 
 ##Créditos
-|   |
-|---|
-|**Título**|
-|SolAR|
-|**Cliente**|
-|BIZSYS|
-|**Gerente de Desenvolvimento / UX**|
-|Saulo Freire|
-|**Direção de Arte**|
-|Samuel Callegari|
-|**Desenvolvedores**|
-|Lucas Bressan|
-|Renan Lopes|
+
+**Título**
+
+SolAR
+
+**Tecnologia**
+
+BIZSYS
+
+**Gerente de Desenvolvimento / UX**
+
+Saulo Freire
+
+**Direção de Arte / Generalista 3D**
+
+Samuel Callegari
+
+**Desenvolvedores**
+
+Lucas Bressan
+
+Renan Lopes

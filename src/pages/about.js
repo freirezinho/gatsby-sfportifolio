@@ -4,7 +4,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import WitcherProj from "../images/WitcherProjectItem.png";
 import BradescoProj from "../images/bradescoProjectItem.png";
-import OPDTProj from "../images/opdtProjectItem.png";
+// import FordProj from "../images/accessibilityMatProjectItem.png";
 
 const HeroPicture = ({className, children}) => {
     const {desktop} = useStaticQuery(graphql`
@@ -92,14 +92,14 @@ const AboutPage = () => {
                           name: 'Witcher Quiz',
                           bgImage: WitcherProj,
                           category: 'Game',
-                          url: '#',
+                          url: '/witcher-quiz',
                       },
                       {
-                          client: 'P&G',
-                          name: 'O Poder do Toque',
-                          bgImage: OPDTProj,
-                          category: 'Game',
-                          url: '#'
+                          client: 'Ford',
+                          name: 'Accessibility Mat',
+                          bgImage: '/img/accessibilityMatProjectItem.png',
+                          category: 'Web / Mobile / IoT',
+                          url: '/accessibility-mat'
                       },
                       {
                           client: 'Bradesco',

@@ -26,3 +26,64 @@ De segunda à quinta-feira, uma porção do espetáculo era reservada para proje
 
 ##Imprensa
 [![G1](/img/g1.png)](https://g1.globo.com/pr/parana/especial-publicitario/bradesco/noticia/2019/12/03/natal-do-bradesco-abre-as-janelas-para-um-futuro-de-cor-e-esperanca.ghtml) 
+
+
+##Créditos
+
+**Título**
+
+Natal do Bradesco
+
+**Cliente**
+
+Bradesco
+
+**Agência**
+
+Aktuellmix
+
+**Diretor de Produção**
+
+Deco Vianna
+
+**Gerente de Projetos**
+
+Vivian Ignatti
+
+**Diretor de Criação**
+
+Daniel Marques
+
+**Designer UI/UX**
+
+Marcus Vinícius de Souza
+
+**Atendimento**
+
+Caio de Cesare
+
+**Tecnologia**
+
+BIZSYS
+
+**Gerente de Projeto**
+
+Thiago Souza
+
+**Arquiteto de Solução Cloud**
+
+Raphael Sbegue
+
+**Gerente de Desenvolvimento**
+
+Saulo Freire
+
+**Desenvolvedor FullStack / Devops**
+
+Raphael Sbegue
+
+**Desenvolvedores Mobile**
+
+Saulo Freire
+
+Renan Lopes

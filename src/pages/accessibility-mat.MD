@@ -21,6 +21,27 @@ O "Tapede de Acessibilidade" foi desenvolvido para ajudar na movimentação e de
 
 > – **Michele Simões**, Fashion Designer and Mobilizing
 
+##Reconhecimentos
+
+O projeto arrematou 18 prêmios, entre eles:
+* **2019 – Cannes Lions**
+* Silver Cannes Lion (MOBILE)
+* Bronze Cannes Lion (DESIGN)
+* Bronze Cannes Lion (Brand Experience & Activation)
+* Bronze Cannes Lion (Sustainable Development Goals)
+* 2 ShortList Cannes Lion (Brand Experience & Activation)
+* 1 ShortList Cannes Lion (Design)
+* 2 ShortList Cannes Lion (Direct)
+* 1 ShortList Cannes Lion (Innovation)
+* 3 ShortList Cannes Lion (Mobile)
+* 1 ShortList Cannes Lion (Sustainable Development Goals)
+* **Wave Festival 2019**
+* **GrandPrix (Brand Experience & Activation)**
+* Ouro (Design)
+* Prata (Direct)
+* Bronze (Mobile)
+* **D&AD Awards 2019**
+* Yellow Pencil / Digital Design / Internet of Things
 
 ##Tecnologia
 ![Tecnologia do tapete](https://www.dexigner.com/images/article/60436/Accessibility_Mat_01.jpg)
