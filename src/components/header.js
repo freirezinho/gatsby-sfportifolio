@@ -44,7 +44,7 @@ const Header = () => {
           <ul style={{listStyle: 'none', display: 'flex', alignItems: 'center', textTransform: 'uppercase', fontSize: '0.8em', color: '#ffffff70'}}>
               <li style={{marginRight: 10}}><Link to="/" activeStyle={{color: '#fff', fontWeight: 700,}}>Portfólio</Link></li>
               <li style={{marginRight: 10}}><Link to="/about" activeStyle={{color: '#fff', fontWeight: 700,}}>Sobre</Link></li>
-              <li style={{marginRight: 10}}><a href="https://linkedin.com/in/saulo-freire"><LinkedInIcon /></a></li>
+              <li style={{marginRight: 10}}><a href="https://linkedin.com/in/saulo-freire" target="_blank" rel="noreferrer"><LinkedInIcon /></a></li>
               <li style={{marginRight: 10}}><a href="mailto:saulo@freiretales.com"><EmailIcon /></a></li>
           </ul>
       </nav>

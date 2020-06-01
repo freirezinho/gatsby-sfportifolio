@@ -93,7 +93,7 @@ const AboutPage = () => {
                   <p>Possui experiência com JavaScript (vanilla e frameworks como React, NextJS, Gatsby, Nuxt e NodeJS), C#, Swift (iOS e watchOS), Python e a Adobe Creative Suite.</p>
               </article>
               <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '50px', marginTop: 50, marginLeft: 'auto', marginRight: 'auto', }}>
-                <a href="https://linkedin.com/in/saulo-freire"><LinkedInIcon /></a>
+                <a href="https://linkedin.com/in/saulo-freire" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
                 <a href="mailto:saulo@freiretales.com"><EmailIcon /></a>
               </div>
             </main>
