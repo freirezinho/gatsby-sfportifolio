@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: `Saulo Freire`,
     description: `Engenheiro de software autônomo. Atua na criação de aplicativos móveis, web apps, games e outras experiências interativas.`,
