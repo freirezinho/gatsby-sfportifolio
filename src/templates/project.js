@@ -136,7 +136,7 @@ export default function Project({data}) {
               </div>
               </footer>
             </main>
-            <footer style={{height: 50, borderTop: '1px solid #ffffff33', textAlign: 'center', opacity: 0.7}}>
+            <footer style={{height: 50, borderTop: '1px solid #ffffff33', textAlign: 'center', opacity: 0.7, paddingBottom: 50}}>
             <p>2020 &copy; Saulo Freire.</p>
           </footer>
         </React.Fragment>

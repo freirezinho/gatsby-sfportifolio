@@ -8,9 +8,9 @@ cannes: true
 client: "Ford Motors Company"
 year: 2019
 platform: "Web | Mobile | IoT"
-featImage: '/img/fordAMHomeProject.jpg'
+featImage: './img/fordAMHomeProject.jpg'
 ---
-![](/img/accessibility-app.jpg)
+![](./img/accessibility-app.jpg)
 ##Resumo
 
 No Brasil, há 46.000.000 de pessoas com algum tipo de deficiência. 7% delas possui uma deficiência motora. Apesar de um cadeirante poder dirigir um carro adaptado, quando vai as ruas, precisa lidar com uma grande falta de accessibilidade, mesmo nas grandes metrópoles.
@@ -49,7 +49,7 @@ O tapete possui sensores e um microcontrolador que envia sinais Bluetooth para u
 
 
 ##Imprensa
-[![Meio & Mensagem](/img/meio-e-mensagem.png)](http://www.wavefestival.com.br/noticias2019/2019/05/28/tapete-de-acessibilidade-ganha-gp-de-brand-experience-activation/) [![UOL](/img/uol.png)](https://economia.uol.com.br/noticias/redacao/2019/06/21/comercial-brasileiro-sem-fim-ganha-3-trofeus-no-festival-de-cannes.htm) [![Brainstorm9](/img/b9.png)](https://www.b9.com.br/110169/cannes-lions-2019-com-whopper-detour-burger-king-garante-mais-um-gp-o-de-mobile/)
+[![Meio & Mensagem](./img/meio-e-mensagem.png)](http://www.wavefestival.com.br/noticias2019/2019/05/28/tapete-de-acessibilidade-ganha-gp-de-brand-experience-activation/) [![UOL](./img/uol.png)](https://economia.uol.com.br/noticias/redacao/2019/06/21/comercial-brasileiro-sem-fim-ganha-3-trofeus-no-festival-de-cannes.htm) [![Brainstorm9](./img/b9.png)](https://www.b9.com.br/110169/cannes-lions-2019-com-whopper-detour-burger-king-garante-mais-um-gp-o-de-mobile/)
 
 ##Créditos
 |   |   |   |   |

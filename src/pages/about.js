@@ -110,7 +110,7 @@ const AboutPage = () => {
                       {
                           client: 'Ford',
                           name: 'Accessibility Mat',
-                          bgImage: '/img/accessibilityMatProjectItem.png',
+                          bgImage: './img/accessibilityMatProjectItem.png',
                           category: 'Web / Mobile / IoT',
                           url: '/accessibility-mat'
                       },
