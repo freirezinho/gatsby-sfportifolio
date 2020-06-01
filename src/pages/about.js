@@ -6,7 +6,7 @@ import WitcherProj from "../images/WitcherProjectItem.png";
 import BradescoProj from "../images/bradescoProjectItem.png";
 import SEO from "../components/seo"
 import {navigate} from '@reach/router'
-// import FordProj from "../images/accessibilityMatProjectItem.png";
+import FordProj from "../images/accessibilityMatProjectItem.png";
 
 const HeroPicture = ({className, children}) => {
     const {desktop} = useStaticQuery(graphql`
@@ -110,7 +110,7 @@ const AboutPage = () => {
                       {
                           client: 'Ford',
                           name: 'Accessibility Mat',
-                          bgImage: './img/accessibilityMatProjectItem.png',
+                          bgImage: FordProj,
                           category: 'Web / Mobile / IoT',
                           url: '/accessibility-mat'
                       },
