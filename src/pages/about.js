@@ -4,6 +4,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import WitcherProj from "../images/WitcherProjectItem.png";
 import BradescoProj from "../images/bradescoProjectItem.png";
+import SEO from "../components/seo"
+import {navigate} from '@reach/router'
 // import FordProj from "../images/accessibilityMatProjectItem.png";
 
 const HeroPicture = ({className, children}) => {
@@ -57,20 +59,30 @@ export const EmailIcon = props => (
 const AboutPage = () => {
     return(
         <React.Fragment>
+          <SEO title="Sobre mim | Saulo Freire"/>
           <Header />
             <HeroPicture className="heroImage">
               <div style={{
-                  backgroundColor: '#262626',
+                  backgroundColor: 'rgba(38, 38, 38, 0.43)',
                   height: 50,
                   display: 'flex',
-                  justifyContent:'space-between',
                   alignItems: 'center',
                   paddingLeft: '2em',
                   paddingRight: '2em',
                   opacity: 1,
-              }} >
-                  <a href="#" style={{color: "#fff", textDecoration: 'none'}}>Voltar</a>
-                  <h1 style={{margin: 0, fontWeight: 400, fontSize: '1.3em'}}>Sobre Mim</h1>
+                  marginLeft: '-2em',
+                  marginRight: '-2em',
+                  marginTop: 0,
+                  position: 'initial',
+                  width: 'auto',
+                  top: 0,
+                  boxSizing: 'border-box',
+                  borderBottom: '1px solid rgba(255, 255, 255, 0.17)',
+              }}
+                className="aboutBar" 
+              >
+                  <a href="#" className="otherBackButton" onClick={() => navigate(-1)}>&lt;</a>
+                  <h1 style={{margin: 0, fontWeight: 'bold', fontSize: '1.3em'}}>Sobre </h1>
                   <div></div>
               </div>
             </HeroPicture>
@@ -78,6 +90,7 @@ const AboutPage = () => {
               <article style={{marginLeft: 'auto', marginRight: 'auto', maxWidth: '700px', opacity: .7, fontWeight: 300, marginTop: 50}}>
                   <p>Sou um profissional orientado a resultados e conhecido pelo pensamento estratégico e busca constante por inovação. Durante minha formação profissionalizante em computação gráfica e acadêmica em engenharia da computação, trabalhei como profissional autônomo ou funcionário de microempresas, organizações internacionais sem fins lucrativos e startups nas áreas de publicidade e tecnologia. Participei do desenvolvimento e liderança de projetos para clientes e agências como: Netflix, Ford, Unilever, Procter &amp; Gamble, Bradesco, Caixa Econômica, Agência África, Publicis, J W Thompson e Aktuellmix.</p>
                   <p>Nos últimos quatro anos, atuei em projetos de localização de conteúdo e publicidade, produção e edição de vídeo, transmissão de conteúdo ao vivo em larga escala, e desenvolvimento de software como desenvolvedor e tech lead. Atendi demandas internas ou externas por meio de soluções tecnológicas existentes, implementação de processos ou criação e desenvolvimento de ferramentas internas para equipes de criação.</p>
+                  <p>Tenho experiência com JavaScript (vanilla e frameworks como React, NextJS, Gatsby, Nuxt e NodeJS), C#, Swift, Python e a Adobe Creative Suite.</p>
               </article>
               <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '50px', marginTop: 50, marginLeft: 'auto', marginRight: 'auto', }}>
                 <a href="https://linkedin.com/in/saulo-freire"><LinkedInIcon /></a>
@@ -136,6 +149,10 @@ const AboutPage = () => {
                   }
                   
               </section>
+
+            <footer style={{height: 50, borderTop: '1px solid #ffffff33', textAlign: 'center', opacity: 0.7}}>
+            <p>2020 &copy; Saulo Freire.</p>
+          </footer>
         </React.Fragment>
     );
 }

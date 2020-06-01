@@ -1,7 +1,7 @@
 import React from 'react';
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+// import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 export const LinkedInIcon = props => (
   <svg width={14.789} height={14.134} viewBox="0 0 14.789 14.134" {...props}>
@@ -39,11 +39,11 @@ const Header = () => {
   `)
   return(
     <header className="App-header">
-      <AniLink to="/"><Img fixed={data.placeholderImage.childImageSharp.fixed} /></AniLink>
+      <Link to="/"><Img fixed={data.placeholderImage.childImageSharp.fixed} /></Link>
       <nav>
           <ul style={{listStyle: 'none', display: 'flex', alignItems: 'center', textTransform: 'uppercase', fontSize: '0.8em', color: '#ffffff70'}}>
-              <li style={{marginRight: 10}}><AniLink to="/">Portfólio</AniLink></li>
-              <li style={{marginRight: 10}}><AniLink to="/about">Sobre</AniLink></li>
+              <li style={{marginRight: 10}}><Link to="/" activeStyle={{color: '#fff', fontWeight: 700,}}>Portfólio</Link></li>
+              <li style={{marginRight: 10}}><Link to="/about" activeStyle={{color: '#fff', fontWeight: 700,}}>Sobre</Link></li>
               <li style={{marginRight: 10}}><a href="https://linkedin.com/in/saulo-freire"><LinkedInIcon /></a></li>
               <li style={{marginRight: 10}}><a href="mailto:saulo@freiretales.com"><EmailIcon /></a></li>
           </ul>

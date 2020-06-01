@@ -1,35 +1,10 @@
 import React, {useState} from 'react'
-import {graphql, useStaticQuery} from 'gatsby'
+import {graphql} from 'gatsby'
 // import Layout from '../components/layout'
+import SEO from "../components/seo"
 import Header from '../components/header'
-import BackgroundImage from 'gatsby-background-image'
 import { navigate } from '@reach/router';
 import "../components/SinglePage.css";
-
-// const HeroPicture = ({className, children}) => {
-//     const {desktop} = useStaticQuery(graphql`
-//         query{
-//           desktop: file(relativePath: { eq: "sf.jpg" }) {
-//             childImageSharp {
-//               fluid(quality: 90, maxWidth: 1920) {
-//                 ...GatsbyImageSharpFluid
-//               }
-//             }
-//           } 
-//         }
-//       `)
-//         const ImageData = desktop.childImageSharp.fluid
-//         return(
-//           <BackgroundImage
-//             Tag="div"
-//             className={className}
-//             fluid={ImageData}
-//             backgroundColor={`#000`}
-//           >
-//             {children}
-//           </BackgroundImage>
-//         )
-//   }
 
 export default function Project({data}) {
     const post = data.markdownRemark;
@@ -42,19 +17,19 @@ export default function Project({data}) {
     const stateRef = React.useRef(hasScrolled);
 
     const changeState = (val => {
-      console.log('VALOR: ' + val)
+      // console.log('VALOR: ' + val)
       // handleScroll(val)
       stateRef.current = val;
       handleScroll(val)
     });
 
     const barChanger = () => {
-      console.log('listening')
+      // console.log('listening')
         const isTop = window.scrollY > 60;
-        console.log(isTop);
-        console.log(stateRef.current);
+        // console.log(isTop);
+        // console.log(stateRef.current);
         if (isTop !== stateRef.current) {
-          console.log('isTop =/= hasScrolled')
+          // console.log('isTop =/= hasScrolled')
           changeState(isTop)
         }
     }
@@ -65,9 +40,10 @@ export default function Project({data}) {
       return ()=> {
         document.removeEventListener('scroll', barChanger);
       }
-    }, [])
+    })
     return(
         <React.Fragment>
+          <SEO title={post.frontmatter.title} />
           <Header />
             {/* <HeroPicture className="heroImage">
               <div style={{
@@ -137,16 +113,32 @@ export default function Project({data}) {
               <div dangerouslySetInnerHTML={{__html: post.html}} />
               <footer style={{marginTop: 10, marginBottom: 30}}>
               <div style={{display: 'flex', border: '1px solid #fdd62b', maxWidth: 300, marginLeft: 'auto', marginRight: 'auto', alignItems: 'center', borderRadius: 10}}>
-                <div style={{textAlign: 'center', flex: 1, padding: '1em', backgroundColor: '#fdd62b', color: '#000', borderTopLeftRadius: 10, borderBottomLeftRadius: 10}}>
-                  Get in touch
-                </div>
-                <div style={{textAlign: 'center', flex: 1, padding: '1em', color: '#fdd62b'}}>
+                <a 
+                  href="maito:saulo.freire@freiretales.com"
+                  style={{
+                    textAlign: 'center',
+                    flex: 1,
+                    padding: '1em',
+                    backgroundColor: '#fdd62b',
+                    color: '#000',
+                    // borderTopLeftRadius: 10,
+                    // borderBottomLeftRadius: 10
+                    borderRadius: 10,
+                    }}
+                >
+                  <div>
+                    Entre em contato
+                  </div>
+                </a>
+                {/* <div style={{textAlign: 'center', flex: 1, padding: '1em', color: '#fdd62b'}}>
                   Share
-                </div>
+                </div> */}
               </div>
               </footer>
             </main>
-            
+            <footer style={{height: 50, borderTop: '1px solid #ffffff33', textAlign: 'center', opacity: 0.7}}>
+            <p>2020 &copy; Saulo Freire.</p>
+          </footer>
         </React.Fragment>
     )
 }

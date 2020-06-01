@@ -115,8 +115,8 @@ const IndexPage = () => {
                   
               </section>
           </main>
-          <footer style={{height: 50, borderTop: '1px solid #ffffff33'}}>
-
+          <footer style={{height: 50, borderTop: '1px solid #ffffff33', textAlign: 'center', opacity: 0.7}}>
+            <p>2020 &copy; Saulo Freire.</p>
           </footer>
     </React.Fragment>
   )

@@ -72,11 +72,15 @@ body {
   .App-header a{
     text-decoration: none;
   }
-  .App-header a:visited {
+  .App-header a:visited, .App-header a {
     color: #656565;
   }
   .App-header a:hover {
     color: #fff;
+  }
+  .active {
+    color: #fff;
+    font-weight: 500;
   }
   .App-header a > svg > path:hover {
     opacity: 1;
@@ -233,7 +237,9 @@ body {
   .featProject:hover{
     margin-top: -10px;
   }
-
+  .aboutBar {
+    justify-content: space-between;
+  }
   @media screen and (max-width: 678px)
   {
     .homeFeatProjects{
@@ -245,5 +251,9 @@ body {
       width: 100%;
       height: 400px;
       margin-bottom: 40px;
+    }
+
+    .aboutBar {
+      justify-content: space-around;
     }
   }

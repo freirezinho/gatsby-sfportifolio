@@ -8,7 +8,7 @@ cannes: true
 client: "Ford Motors Company"
 year: 2019
 platform: "Web | Mobile | IoT"
-featImage: 'http://localhost:8000/static/f19f25fc22e2c2bf4dd9836c026d5b15/c608a/fordAMHomeProject.png'
+featImage: '/img/fordAMHomeProject.jpg'
 ---
 ![](/img/accessibility-app.jpg)
 ##Resumo
