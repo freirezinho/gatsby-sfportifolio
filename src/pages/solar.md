@@ -14,9 +14,9 @@ featImage: './img/solARHeroProj.jpg'
 ##Resumo
 ![](./img/Solar1.jpg)
 
-Dando início a uma área de inovação na empresa BIZSYS, empresa conhecida por somente viabilizar tecnicamente projetos publicitários, preparei, fiz o pitch e coordenei um projeto de **AR** (Augmented Reality, ou Realidade Aumentada), para **Android** e **iOS**.
+Dando início a uma área de inovação na empresa BIZSYS, empresa conhecida por somente viabilizar tecnicamente projetos publicitários, Saulo preparou, fez o pitch e coordenou um projeto de **AR** (Augmented Reality, ou Realidade Aumentada), para **Android** e **iOS**.
 
-Com o desejo de proporcionar uma experiência de entretenimento imersiva e significativa, com grau educativo, propus a criação de um sistema solar no ambiente do usuário. Assim nasceu o SolAR.
+Com o desejo de proporcionar uma experiência de entretenimento imersiva e significativa, com grau educativo, propôs a criação de um sistema solar no ambiente do usuário. Assim nasceu o SolAR.
 
 ##Tecnologia
 ![](./img/Solar2.jpg)

@@ -16,7 +16,7 @@ Durante todo o mês de Dezembro de 2019, o Banco Bradesco organizou diversas apr
 ##Aplicativo
 ![](./img/AppNatalBraOverview.png)
 
-Para auxiliar na interatividade, o banco encomendou um aplicativo desenvolvido simultaneamente para **Android** e **iOS**, onde atuei como gerente de desenvolvimento e desenvolvedor principal. Nele era possível encontrar informativos do evento, baixar um pacote de stickers exclusivos do evento para WhatsApp, e participar de forma inédita do espetáculo em suas diversas apresentações.
+Para auxiliar na interatividade, o banco encomendou um aplicativo desenvolvido simultaneamente para **Android** e **iOS**. Nele era possível encontrar informativos do evento, baixar um pacote de stickers exclusivos do evento para WhatsApp, e participar de forma inédita do espetáculo em suas diversas apresentações.
 
 ##Interatividade
 ![](./img/bradescoNatalProposal.jpg)

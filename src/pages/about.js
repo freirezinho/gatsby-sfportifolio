@@ -59,7 +59,7 @@ export const EmailIcon = props => (
 const AboutPage = () => {
     return(
         <React.Fragment>
-          <SEO title="Sobre mim | Saulo Freire"/>
+          <SEO title="Sobre"/>
           <Header />
             <HeroPicture className="heroImage">
               <div style={{
@@ -88,9 +88,9 @@ const AboutPage = () => {
             </HeroPicture>
             <main style={{paddingLeft: '2em', paddingRight: '2em'}}>
               <article style={{marginLeft: 'auto', marginRight: 'auto', maxWidth: '700px', opacity: .7, fontWeight: 300, marginTop: 50}}>
-                  <p>Sou um profissional orientado a resultados e conhecido pelo pensamento estratégico e busca constante por inovação. Durante minha formação profissionalizante em computação gráfica e acadêmica em engenharia da computação, trabalhei como profissional autônomo ou funcionário de microempresas, organizações internacionais sem fins lucrativos e startups nas áreas de publicidade e tecnologia. Participei do desenvolvimento e liderança de projetos para clientes e agências como: Netflix, Ford, Unilever, Procter &amp; Gamble, Bradesco, Caixa Econômica, Agência África, Publicis, J W Thompson e Aktuellmix.</p>
-                  <p>Nos últimos quatro anos, atuei em projetos de localização de conteúdo e publicidade, produção e edição de vídeo, transmissão de conteúdo ao vivo em larga escala, e desenvolvimento de software como desenvolvedor e tech lead. Atendi demandas internas ou externas por meio de soluções tecnológicas existentes, implementação de processos ou criação e desenvolvimento de ferramentas internas para equipes de criação.</p>
-                  <p>Tenho experiência com JavaScript (vanilla e frameworks como React, NextJS, Gatsby, Nuxt e NodeJS), C#, Swift, Python e a Adobe Creative Suite.</p>
+                  <p>Saulo é um profissional orientado a resultados e conhecido pelo pensamento estratégico e busca constante por inovação. Durante sua formação profissionalizante em computação gráfica e acadêmica em engenharia da computação, trabalhou como profissional autônomo ou funcionário de microempresas, organizações internacionais sem fins lucrativos e startups nas áreas de publicidade e tecnologia. Participou do desenvolvimento e liderança de projetos para clientes e agências como: Netflix, Ford, Unilever, Procter &amp; Gamble, Bradesco, Caixa Econômica, Agência África, Publicis, J W Thompson e Aktuellmix.</p>
+                  <p>Nos últimos quatro anos, atuou em projetos de localização de conteúdo e publicidade, produção e edição de vídeo, transmissão de conteúdo ao vivo em larga escala, e desenvolvimento de software como desenvolvedor e gerente de desenvolvimento. Atendeu demandas internas ou externas por meio de soluções tecnológicas existentes, implementação de processos ou criação e desenvolvimento de ferramentas internas para equipes de criação.</p>
+                  <p>Possui experiência com JavaScript (vanilla e frameworks como React, NextJS, Gatsby, Nuxt e NodeJS), C#, Swift (iOS e watchOS), Python e a Adobe Creative Suite.</p>
               </article>
               <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '50px', marginTop: 50, marginLeft: 'auto', marginRight: 'auto', }}>
                 <a href="https://linkedin.com/in/saulo-freire"><LinkedInIcon /></a>
